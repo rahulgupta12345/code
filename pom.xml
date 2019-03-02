@@ -9,10 +9,6 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <!-- Added on 03March19 -->
-  <properties>
-    <failOnMissingWebXml>false</failOnMissingWebXml>   
-  </properties>
 
   <name>first-Rapp</name>
   <!-- FIXME change it to the project's website -->
@@ -22,6 +18,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <!-- Added on 03March19 -->
+    <failOnMissingWebXml>false</failOnMissingWebXml>
   </properties>
 
   <dependencies>
